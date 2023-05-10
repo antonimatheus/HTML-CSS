@@ -1,0 +1,18 @@
+body {
+    background-color: lightcyan;
+}
+
+h1 {
+    text-align: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+.video a {
+    margin: 0 10px;
+  }
+  

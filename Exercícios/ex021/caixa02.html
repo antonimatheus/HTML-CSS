@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(153, 197, 254);
+            margin: 0px;
+        }
+
+        header {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.394);
+            border-radius: 10px;
+        }
+        
+        h1 {
+            color: white;
+            text-align: center;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.394);
+        }
+
+        nav {
+            background-color: white;
+            padding: 3px;
+            margin: 5px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.448);
+            border-radius: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(0, 128, 128);
+            margin-right: 5px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.394);
+            border-radius: 10px;
+        }
+
+        main > a {
+            color: black;
+        }
+
+        section {
+            background-color: lightcyan;
+            margin: 5px;
+        }
+
+        h2 {
+            color: rgb(0, 128, 128);
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        aside {
+            background-color: rgba(0, 255, 255, 0.42);
+            
+        }
+
+        aside > p {
+            text-align: left;
+            font-weight: bold;
+            color: rgb(0, 100, 100);
+            padding: 1px;
+        }
+
+        footer {
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.394);;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título Exemplo</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Assuntos do Brasil</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum eius nisi hic necessitatibus vel accusamus fugiat est inventore, tenetur minima, possimus laboriosam corrupti temporibus, officia ipsum ea repellendus. Consequatur, qui!</p>
+            <aside>
+                <p>Escrito pela emissora Globo</p>
+            </aside>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticías do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi neque eum aperiam possimus. Quidem quia, sapiente architecto rem labore distinctio harum porro natus animi blanditiis sequi molestiae in, inventore similique?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        &regAntoniMatheus
+    </footer>
+</body>
+</html>
